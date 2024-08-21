@@ -1,6 +1,7 @@
 export default function Header(){
 
 return(
+    <div className="cabeca">
     <header>
         <nav>
             <ul>
@@ -16,6 +17,7 @@ return(
             </ul>
         </nav>
     </header>
+    </div>
 
 )
 

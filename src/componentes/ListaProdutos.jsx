@@ -9,7 +9,7 @@ export default function ListaProdutos({ produtos }) {
     return (
         <div className="card">
             {
-                produtos.map((objeto) => (
+                produtos.map((objeto)  (
                     <div calssName="container" key={objeto.id}>
                         <img calssName="imagem" src={objeto.imagem} alt={objeto.nome} />
                         <div className="conteudo">
@@ -17,9 +17,10 @@ export default function ListaProdutos({ produtos }) {
                             <p className="money">{objeto.valor}</p>
                         </div>
                         <button className="obter">comprar</button>
-                        ))
-        }
+                    </div>
+                   ))
+             }
         </div>
 
-                );
-
+    );
+}
