@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom/dist";
+
 export default function Header(){
 
 return(
@@ -5,15 +7,15 @@ return(
     <header>
         <nav>
             <ul>
-            <link to="./Home">
+            <Link to="./Home">
                     <li>Home</li>
-                </link>
-                <link to="./produto">
+                </Link>
+                <Link to="./produto">
                     <li>Produtos</li>
-                </link>
-                <link to="./Oferta">
+                </Link>
+                <Link to="./Oferta">
                     <li>Ofertas</li>
-                </link>
+                </Link>
             </ul>
         </nav>
     </header>

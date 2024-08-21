@@ -1,7 +1,3 @@
-import React from "react";
-import { link } from "react-router-dom";
-import "../globals.css"
-
 
 
 export default function ListaProdutos({ produtos }) {
@@ -9,11 +5,11 @@ export default function ListaProdutos({ produtos }) {
     return (
         <div className="card">
             {
-                produtos.map((objeto)  (
+                produtos.map((objeto) => (
                     <div calssName="container" key={objeto.id}>
-                        <img calssName="imagem" src={objeto.imagem} alt={objeto.nome} />
+                        <img calssName="imagem" src={objeto.image}/>
                         <div className="conteudo">
-                            <p className="destaque">{objeto.nome}</p>
+                            <h1 className="destaque">{objeto.nome}</h1>
                             <p className="money">{objeto.valor}</p>
                         </div>
                         <button className="obter">comprar</button>
