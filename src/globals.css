@@ -1,0 +1,22 @@
+.cabeca{
+    background-color:red;
+    height: 90px;
+    padding-bottom: 50px;
+}
+ul{
+    padding-top:45px;
+    list-style: none;
+    gap:2%;
+    display: flex;
+    justify-content: right;
+}
+.card{
+display: flex;
+justify-content: center;
+.imagem{
+    width: 60px;
+    height: 70px;
+}
+   
+    
+}
