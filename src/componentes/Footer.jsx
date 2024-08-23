@@ -1,7 +1,10 @@
 export default function Footer(){
 
 return(
-<div className="pe"><ul>
+    <footer>
+<div className="pezao">
+    
+    <ul className="pe">
     
    <li>instagram</li>
     
@@ -9,7 +12,9 @@ return(
 
     <li>facebook</li>
     </ul>
+   
 </div>
+</footer>
 )
 
 }

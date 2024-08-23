@@ -5,19 +5,19 @@ export default function Header(){
 
 return(
     <div className="cabeca">
- 
+ <h1 class="title">Nintendo</h1>
         <nav>
             <ul>
             <Link to="/">
-                    <li>Home</li>
+                    <li className="Home">Home</li>
                 </Link>
                 
                 <Link to="/produto">
-                    <li> Produtos </li>
+                    <li className="produtos"> Produtos </li>
                 </Link>
 
                 <Link to="/oferta">
-                    <li>Ofertas</li>
+                    <li className="oferta">Ofertas</li>
                 </Link>
             </ul>
         </nav>
